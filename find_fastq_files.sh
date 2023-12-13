@@ -1,4 +1,6 @@
 #!/bin/bash
+# run using: ./find_fastq_files.sh
+# use chmod +x find_fastq_files.sh if do not have proper permissions
 
 # Set the directory path
 directory="FASTQ"
