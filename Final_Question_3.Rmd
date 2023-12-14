@@ -1,0 +1,16 @@
+---
+title: "Citations from Bibliography"
+author: "Nick Chevalier"
+date: "`r Sys.Date()`"
+bibliography: bibliography.ris
+---
+
+# Introduction
+
+This is a citation example using RMarkdown.
+
+## Citation
+
+```{r citations, results='asis'}
+knitr::write_bib(c("@Love"), "html")
+```
